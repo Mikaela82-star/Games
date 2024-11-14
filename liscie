@@ -1,0 +1,12 @@
+class liscie():
+
+    def __init__(self):
+        self.x_pos = 0
+        self.y_pos = 0
+        self.image =
+
+    def function(self):
+        while(True):
+            self.y_pos -= 1
+            if self.y_pos >= 1080:
+                break
